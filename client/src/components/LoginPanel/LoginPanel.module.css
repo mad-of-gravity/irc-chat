@@ -1,0 +1,79 @@
+.container {
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tabs {
+  width: 80%;
+  border: 1px solid lightgrey;
+  border-radius: 4px;
+  box-shadow: inset 0 0 6px lightgray;
+  margin: 34px 0;
+  padding: 34px;
+}
+
+.loginDescription {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.img,
+.description {
+  width: 50%;
+}
+
+.description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.avatars {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.submitButtonContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.join {
+  margin-top: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For smartphones and tablets: */
+  .loginDescription {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .img,
+  .description {
+    width: 100%;
+  }
+
+  .description {
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-bottom: 60px;
+  }
+}
+
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+}

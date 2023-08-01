@@ -1,0 +1,18 @@
+.avatar {
+  display: inline-block;
+  cursor: pointer;
+  border: 4px double lightgray;
+  border-radius: 50%;
+}
+
+.character {
+  width: 3.5vw;
+  height: 3.5vw;
+}
+
+@media only screen and (max-width: 768px) {
+  .character {
+    width: 10vw;
+    height: 10vw;
+  }
+}

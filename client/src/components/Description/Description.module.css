@@ -1,0 +1,23 @@
+.container {
+    width: 100%;
+    max-height: 300px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    letter-spacing: 2px;
+}
+
+.header {
+    margin: -1px;
+    padding: 10px;
+    border-bottom: 1px solid lightgray;
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+}
+
+.body {
+    box-sizing: border-box;
+    padding: 10px;
+    max-height: inherit;
+    height: inherit;
+    word-wrap: break-word;
+    overflow: auto;
+}
